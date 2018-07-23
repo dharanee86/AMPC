@@ -509,7 +509,7 @@ header .mobileToggle span {
 
 #services .button {
 	border: 0;
-	color: #fff;
+	color: #fff !important;
 	height: 50px;
 	line-height: 48px;
 	font-size: 0.9rem;
