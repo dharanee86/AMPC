@@ -105,7 +105,7 @@ img {
 
 /* Mobile Devices */
 
-@media all and (max-width: 550px) {
+@media screen and (max-width: 50em) {
 	.one.col,
 	.two.col,
 	.three.col,
@@ -315,7 +315,7 @@ header .mobileToggle span {
 	margin-top: -5px;
 }
 
-@media only screen and (max-width: 550px) {
+@media screen and (max-width: 50em) {
 	header nav {
 		width: 100%;
 	}
@@ -398,7 +398,7 @@ header .mobileToggle span {
 	font-weight: 700;
 }
 
-@media all and (max-width: 550px) {
+@media screen and (max-width: 50em) {
 	#hero button {
 		margin-bottom: 20px;
 	}
@@ -436,6 +436,10 @@ header .mobileToggle span {
 #work {
 	background: #FFFFFF;
 	padding: 120px 0;
+}
+
+.tip_1 {
+	border-right: 1px black solid;
 }
 
 #work .work {
@@ -489,6 +493,12 @@ header .mobileToggle span {
 #work .work img {
 	display: block;
 }
+
+@media screen and (max-width: 50em) {
+	.tip_1 {
+		border: none;
+	}
+	}
 
 /* Services Section */
 
@@ -626,7 +636,7 @@ header .mobileToggle span {
 	margin-top: 10px;
 }
 
-@media all and (max-width: 550px) {
+@media screen and (max-width: 50em) {
 	#pricing .card {
 		margin: 40px 0;
 	}
@@ -700,6 +710,21 @@ textarea.error::placeholder {
 	height: 10rem;
 }
 
+#contact .button {
+	border: 0;
+	color: #fff;
+	height: 50px;
+	line-height: 48px;
+	font-size: 0.9rem;
+	padding: 0 40px;
+	background: #FF4136;
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
 /* Footer One */
 
 footer {
@@ -757,7 +782,7 @@ footer hr {
 	margin: 20px 0 20px 0;
 }
 
-@media all and (max-width: 550px) {
+@media screen and (max-width: 50em) {
 	footer ul li {
 		display: block;
 	}
