@@ -12,6 +12,11 @@
 <body>
     <section id="contact">
         <div class="container">
+        <?php
+        if(!empty($_GET['message'])){
+            echo '<div class="center"><h3>'.$_GET['message'].'</h3></div>';
+        }
+        ?>
             <h2 class="center">Register</h2>
             <div class="row">
                 <form>
