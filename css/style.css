@@ -442,6 +442,11 @@ header .mobileToggle span {
 	border-right: 1px black solid;
 }
 
+.pro_link {
+	color: black;
+	text-decoration: none;
+}
+
 #work .work {
 	position: relative;
 }
